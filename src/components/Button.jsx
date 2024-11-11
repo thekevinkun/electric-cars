@@ -1,7 +1,7 @@
-const Button = ({ className, href, onClick, children, px, py }) => {
-  const classes = `button relative inline-flex items-center justify-center
+const Button = ({ className, textButton, href, onClick, children, px, py }) => {
+  const classes = `button relative inline-flex items-center justify-center rounded-sm
   ${px || "px-7"} ${py || "py-1"} ${className || ""}`;
-  const spanClasses = "relative z-10";
+  const spanClasses = `relative z-10 ${textButton || ""}`;
 
   const renderButton = () => (
     <button className={classes} onClick={onClick}>

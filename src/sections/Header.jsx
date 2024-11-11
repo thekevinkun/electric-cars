@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
-  const [top, setTop] = useState(0);
+  const [hideNav, setHideNav] = useState(false);
   const [addStyle, setAddStyle] = useState(false);
 
   const handleScroll = () => {
@@ -36,9 +36,9 @@ const Header = () => {
     }
 
     if (prevScrollPos > currentScrollPos) {
-      setTop(0);
+      setHideNav(false);
     } else {
-      setTop(-100);
+      setHideNav(true);
       setAddStyle(true);
     }
 
@@ -53,11 +53,13 @@ const Header = () => {
 
   return (
     <header
-      className={`slide-bottom w-full fixed top-[${top}px] z-50 transition-[top] duration-700`}
+      className={`${
+        hideNav ? "top-[-100px]" : "top-0"
+      } w-full z-50 fixed transition-[top] duration-1000`}
     >
       <div
         className={`${addStyle && "bg-white"} w-full padding-x py-4
-            flex items-center transition-all duration-700`}
+            flex items-center transition-[background-color] duration-700`}
       >
         <a
           className={`${
@@ -70,7 +72,9 @@ const Header = () => {
         </a>
 
         <Button
-          className={`${addStyle && "!bg-black/90 hover:!bg-black/0"} lg:hidden 
+          className={`${
+            addStyle && "!bg-black/90 hover:!bg-black/0"
+          } lg:hidden uppercase
               glassmorphism-menu text-sm text-primary ml-auto transition-all duration-300 hover:bg-black/30`}
           px="px-4"
           onClick={toggleNavigation}

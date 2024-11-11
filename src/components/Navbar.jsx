@@ -19,17 +19,32 @@ const Navbar = ({ addStyle, openNavigation, toggleNavigation }) => {
           onClick={toggleNavigation}
         />
 
-        {navigation.map((item) => (
-          <a
-            key={item.id}
-            href={item.url}
-            className="py-3 lg:py-0 lg:px-3 font-code font-semibold 
-              text-primary text-xl lg:text-base transition-colors duration-200 hover:text-gray-500"
-            onClick={toggleNavigation}
-          >
-            {item.title}
-          </a>
-        ))}
+        <div className="lg:hidden flex flex-col items-center">
+          {navigation.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              className="py-3 lg:py-0 lg:px-3 font-code font-semibold 
+                text-primary text-xl lg:text-base transition-colors duration-200 hover:text-gray-500"
+              onClick={toggleNavigation}
+            >
+              {item.title}
+            </a>
+          ))}
+        </div>
+
+        <div className="hidden lg:block">
+          {navigation.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              className="py-3 lg:py-0 lg:px-3 font-code font-semibold 
+                text-primary text-xl lg:text-base transition-colors duration-200 hover:text-gray-500"
+            >
+              {item.title}
+            </a>
+          ))}
+        </div>
       </div>
     </nav>
   );

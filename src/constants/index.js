@@ -11,6 +11,19 @@ import {
   volkswagenImage,
 } from "../assets/cars";
 
+import {
+  audiLogo,
+  bmwLogo,
+  chevroletLogo,
+  fordLogo,
+  hyundaiLogo,
+  maseratiLogo,
+  mercedesLogo,
+  porscheLogo,
+  teslaLogo,
+  volkswagenLogo,
+} from "../assets/logo";
+
 export const navigation = [
   {
     id: "0",
@@ -71,6 +84,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: audiImage,
+    logoImgUrl: audiLogo,
     webUrl: "www.audiusa.com/us/web/en/models/electric-models.html",
   },
   {
@@ -79,6 +93,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: bmwImage,
+    logoImgUrl: bmwLogo,
     webUrl: "www.bmwusa.com/all-electric.html",
   },
   {
@@ -87,6 +102,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: chvroletImage,
+    logoImgUrl: chevroletLogo,
     webUrl: "www.chevrolet.com/electric/lineup",
   },
   {
@@ -95,6 +111,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: fordImage,
+    logoImgUrl: fordLogo,
     webUrl: "www.ford.com/electric/",
   },
   {
@@ -103,6 +120,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: hyundaiImage,
+    logoImgUrl: hyundaiLogo,
     webUrl: "www.hyundaiusa.com/us/en/electrified/electric",
   },
   {
@@ -111,6 +129,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: maseratiImage,
+    logoImgUrl: maseratiLogo,
     webUrl: "www.maserati.com/global/en/models/grecale-folgore",
   },
   {
@@ -119,6 +138,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: mercedesImage,
+    logoImgUrl: mercedesLogo,
     webUrl: "www.mercedes-benz.com/en/vehicles/mercedes-benz/electric-models/",
   },
   {
@@ -127,6 +147,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: porscheImage,
+    logoImgUrl: porscheLogo,
     webUrl: "www.porsche.com/international/aboutporsche/e-performance/",
   },
   {
@@ -135,6 +156,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: teslaImage,
+    logoImgUrl: teslaLogo,
     webUrl: "www.tesla.com",
   },
   {
@@ -143,6 +165,7 @@ export const cars = [
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: volkswagenImage,
+    logoImgUrl: volkswagenLogo,
     webUrl: "www.vw.com/en/electric-vehicles.html",
   },
 ];
