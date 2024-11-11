@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#ECEEFF",
+        primary: "#EEEEEE",
         "blue-thunder": "#30639c",
         "slate-zinc": "#393c41",
       },
