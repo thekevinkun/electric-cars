@@ -1,5 +1,5 @@
 const Content = () => {
-  return <main>Content</main>;
+  return <main className="padding-x padding-y">Content</main>;
 };
 
 export default Content;
