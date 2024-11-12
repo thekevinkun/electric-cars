@@ -8,7 +8,7 @@ export default {
       colors: {
         primary: "#EEEEEE",
         "thunder-blue": "#30639c",
-        "hover-thunder-blue": "#20446b",
+        "hover-thunder-blue": "#29578a",
         "slate-white": "#dbdbdb",
         "hover-slate-white": "#f7f7f7",
         "slate-zinc": "#393c41",

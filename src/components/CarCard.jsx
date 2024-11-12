@@ -1,6 +1,14 @@
 import { Button } from "../components";
 
-const CarCard = ({ id, title, description, imageUrl, logoImgUrl, webUrl }) => {
+const CarCard = ({
+  id,
+  title,
+  description,
+  imageUrl,
+  logoImgUrl,
+  webUrl,
+  demoUrl,
+}) => {
   return (
     <section id={id} className="relative w-full h-[100svb]">
       <img src={imageUrl} alt={id} className="w-full h-full object-cover" />
@@ -35,12 +43,13 @@ const CarCard = ({ id, title, description, imageUrl, logoImgUrl, webUrl }) => {
             </Button>
 
             <Button
+              href={demoUrl}
               className="text-button bg-slate-white text-[0.825rem] sm:text-sm max-[378px]:text-xs hover:bg-hover-slate-white transition-[background-color] duration-300"
               textButton="text-button"
               px="md:px-10 sm:px-5 px-4"
               py="py-[10px]"
             >
-              Demo Drive
+              Watch Demo
             </Button>
           </div>
         </div>

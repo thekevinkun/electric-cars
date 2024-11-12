@@ -24,6 +24,7 @@ const Preview = () => {
           ref={videoRef}
           loop
           autoPlay
+          muted
           playsInline
           controls={false}
           poster={videoPoster}

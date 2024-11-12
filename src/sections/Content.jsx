@@ -13,6 +13,7 @@ const Content = () => {
           imageUrl={car.imageUrl}
           logoImgUrl={car.logoImgUrl}
           webUrl={car.webUrl}
+          demoUrl={car.demoUrl}
         />
       ))}
     </main>
