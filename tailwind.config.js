@@ -13,7 +13,7 @@ export default {
       fontFamily: {
         sora: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        orbitron: "var(--font-orbitron)",
       },
     },
   },
