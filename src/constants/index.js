@@ -1,7 +1,7 @@
 import {
   audiImage,
   bmwImage,
-  chvroletImage,
+  chevroletImage,
   fordImage,
   hyundaiImage,
   maseratiImage,
@@ -29,51 +29,61 @@ export const navigation = [
     id: "0",
     title: "Audi",
     url: "#audi",
+    logoImgUrl: audiLogo,
   },
   {
     id: "1",
     title: "BMW",
     url: "#bmw",
+    logoImgUrl: bmwLogo,
   },
   {
     id: "2",
     title: "Chevrolet",
     url: "#chevrolet",
+    logoImgUrl: chevroletLogo,
   },
   {
     id: "3",
     title: "Ford",
     url: "#ford",
+    logoImgUrl: fordLogo,
   },
   {
     id: "4",
     title: "Hyundai",
     url: "#hyundai",
+    logoImgUrl: hyundaiLogo,
   },
   {
     id: "5",
     title: "Maserati",
     url: "#maserati",
+    logoImgUrl: maseratiLogo,
   },
   {
     id: "6",
     title: "Mercedes",
     url: "#mercedes",
+    logoImgUrl: mercedesLogo,
   },
   {
     id: "7",
     title: "Porsche",
     url: "#porsche",
+    logoImgUrl: porscheLogo,
   },
   {
     id: "8",
     title: "Tesla",
     url: "#tesla",
+    logoImgUrl: teslaLogo,
   },
   {
     id: "9",
     title: "Volkswagen",
     url: "#volkswagen",
+    logoImgUrl: volkswagenLogo,
   },
 ];
 
@@ -86,6 +96,7 @@ export const cars = [
     imageUrl: audiImage,
     logoImgUrl: audiLogo,
     webUrl: "www.audiusa.com/us/web/en/models/electric-models.html",
+    demoUrl: "www.youtube.com/watch?v=LYLmV_3uuJ4",
   },
   {
     id: "bmw",
@@ -95,15 +106,17 @@ export const cars = [
     imageUrl: bmwImage,
     logoImgUrl: bmwLogo,
     webUrl: "www.bmwusa.com/all-electric.html",
+    demoUrl: "www.youtube.com/watch?v=OVm4NNqfh7c",
   },
   {
     id: "chevrolet",
     title: "Chevrolet",
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    imageUrl: chvroletImage,
+    imageUrl: chevroletImage,
     logoImgUrl: chevroletLogo,
     webUrl: "www.chevrolet.com/electric/lineup",
+    demoUrl: "www.youtube.com/watch?v=WAfnRFLEcgA",
   },
   {
     id: "ford",
@@ -113,6 +126,7 @@ export const cars = [
     imageUrl: fordImage,
     logoImgUrl: fordLogo,
     webUrl: "www.ford.com/electric/",
+    demoUrl: "www.youtube.com/watch?v=0cTUnAwJplw",
   },
   {
     id: "hyundai",
@@ -122,6 +136,7 @@ export const cars = [
     imageUrl: hyundaiImage,
     logoImgUrl: hyundaiLogo,
     webUrl: "www.hyundaiusa.com/us/en/electrified/electric",
+    demoUrl: "www.youtube.com/watch?v=Axf6vUq8f4w",
   },
   {
     id: "maserati",
@@ -131,6 +146,7 @@ export const cars = [
     imageUrl: maseratiImage,
     logoImgUrl: maseratiLogo,
     webUrl: "www.maserati.com/global/en/models/grecale-folgore",
+    demoUrl: "www.youtube.com/watch?v=18-9j55a0Y4",
   },
   {
     id: "mercedes",
@@ -140,6 +156,7 @@ export const cars = [
     imageUrl: mercedesImage,
     logoImgUrl: mercedesLogo,
     webUrl: "www.mercedes-benz.com/en/vehicles/mercedes-benz/electric-models/",
+    demoUrl: "",
   },
   {
     id: "porsche",
@@ -149,6 +166,7 @@ export const cars = [
     imageUrl: porscheImage,
     logoImgUrl: porscheLogo,
     webUrl: "www.porsche.com/international/aboutporsche/e-performance/",
+    demoUrl: "www.youtube.com/watch?v=KitQQHm0Eoc",
   },
   {
     id: "tesla",
@@ -158,6 +176,7 @@ export const cars = [
     imageUrl: teslaImage,
     logoImgUrl: teslaLogo,
     webUrl: "www.tesla.com",
+    demoUrl: "www.youtube.com/watch?v=tlThdr3O5Qo",
   },
   {
     id: "volkswagen",
@@ -167,6 +186,7 @@ export const cars = [
     imageUrl: volkswagenImage,
     logoImgUrl: volkswagenLogo,
     webUrl: "www.vw.com/en/electric-vehicles.html",
+    demoUrl: "www.youtube.com/watch?v=epJGqy8Ihlk",
   },
 ];
 
