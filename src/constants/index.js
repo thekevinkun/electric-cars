@@ -160,8 +160,8 @@ export const cars = [
     webUrl: "www.tesla.com",
   },
   {
-    id: "volskwagen",
-    title: "Volskwagen",
+    id: "volkswagen",
+    title: "Volkswagen",
     description:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: volkswagenImage,
