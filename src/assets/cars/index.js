@@ -1,18 +1,18 @@
-import audiImage from "./audi.webp";
-import bmwImage from "./bmw.jpg";
-import chvroletImage from "./chevrolet.png";
-import fordImage from "./ford.jpg";
-import hyundaiImage from "./hyundai.jpg";
-import maseratiImage from "./maserati.webp";
-import mercedesImage from "./mercedes.webp";
-import porscheImage from "./porsche.webp";
-import teslaImage from "./tesla.jpg";
-import volkswagenImage from "./volkswagen.jpg";
+import audiImage from "./audi.png";
+import bmwImage from "./bmw.png";
+import chevroletImage from "./chevrolet.png";
+import fordImage from "./ford.png";
+import hyundaiImage from "./hyundai.png";
+import maseratiImage from "./maserati.png";
+import mercedesImage from "./mercedes.png";
+import porscheImage from "./porsche.png";
+import teslaImage from "./tesla.png";
+import volkswagenImage from "./volkswagen.png";
 
 export {
   audiImage,
   bmwImage,
-  chvroletImage,
+  chevroletImage,
   fordImage,
   hyundaiImage,
   maseratiImage,
