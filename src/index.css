@@ -1,131 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --font-sora: "Sora", sans-serif;
-    --font-code: "Source Code Pro", monospace;
-    --font-orbitron: "Orbitron", sans-serif;
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-orbitron: "Orbitron", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .glassmorphism-menu {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.1px);
-    -webkit-backdrop-filter: blur(4.1px);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
 }
 
 .overlay {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) calc((50vw - 170px) - 340px), rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) calc((50vw - 170px) - 340px),
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 .overlay-content {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) calc((50vw - 170px) - 340px), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) calc((50vw - 170px) - 340px),
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 .slide-bottom {
-    -webkit-animation: slide-bottom .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-bottom .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-bottom 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-bottom 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-bottom {
-    0% {
-        -webkit-transform: translateY(-100%);
-        transform: translateY(-100%);
-    }
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
 
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 @keyframes slide-bottom {
-    0% {
-        -webkit-transform: translateY(-100%);
-        transform: translateY(-100%);
-    }
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
 
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 @layer base {
-    body {
-        @apply font-sora;
-    }
+  body {
+    @apply font-sora;
+  }
 }
 
 @layer components {
-    .container {
-        @apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem];
-    }
+  .h1 {
+    @apply font-semibold text-[2.75rem] leading-[3.25rem] md:text-[3rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem];
+  }
 
-    .h1 {
-        @apply font-semibold text-[2.75rem] leading-[3.25rem] md:text-[3rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem];
-    }
+  .h2 {
+    @apply font-bold text-[2.5rem] leading-[3rem] sm:text-[2.75rem] sm:leading-[3.5rem] md:text-[3rem] md:leading-tight;
+  }
 
-    .h2 {
-        @apply font-bold text-[2.5rem] leading-[3rem] sm:text-[3rem] sm:leading-[3.5rem] lg:text-[3.25rem] lg:leading-tight;
-    }
-
-    .button {
-        @apply font-code font-bold tracking-wider;
-    }
+  .button {
+    @apply font-code font-bold tracking-wider;
+  }
 }
 
 @layer utilities {
-    .padding-x {
-        @apply lg:px-14 md:px-8 px-6;
-    }
+  .padding-x {
+    @apply lg:px-14 md:px-8 px-6 max-[378px]:px-4;
+  }
 
-    .padding-y {
-        @apply lg:py-16 py-14;
-    }
+  .padding-y {
+    @apply lg:py-16 py-14;
+  }
 
-    .logo-text {
-        @apply font-orbitron font-extrabold text-primary text-[1rem] lg:text-[1.115rem] tracking-[0.3em] uppercase
-    }
+  .logo-text {
+    @apply font-orbitron font-extrabold text-primary text-[1rem] lg:text-[1.115rem] max-[375px]:text-[0.875rem] tracking-[0.3em] uppercase;
+  }
 
-    .text-button {
-        @apply md:min-w-48 sm:min-w-40 min-w-36 text-slate-zinc;
-    }
+  .sub-text {
+    @apply font-medium mx-auto text-[1rem] sm:text-[1.05rem] md:text-[1.15rem] leading-7;
+  }
 
-    .sub-text {
-        @apply font-semibold mx-auto text-[1rem] sm:text-[1.15rem] md:text-[1.25rem] leading-7;
-    }
+  .text-button {
+    @apply md:min-w-48 sm:min-w-36 min-w-56 max-[590px]:min-w-48 max-[515px]:min-w-36 max-[411px]:min-w-32 max-[378px]:min-w-24 text-slate-zinc;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .overlay {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) calc((50vw - 120px) - 300px), rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%);
-    }
+  .overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) calc((50vw - 120px) - 300px),
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  }
 
-    .overlay-content {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) calc((50vw - 120px) - 300px), rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%);
-    }
+  .overlay-content {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) calc((50vw - 120px) - 300px),
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
 }

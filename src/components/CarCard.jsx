@@ -8,7 +8,7 @@ const CarCard = ({ id, title, description, imageUrl, logoImgUrl, webUrl }) => {
       <div className="overlay-content"></div>
 
       <div className="padding-x padding-y w-full h-full absolute top-0 z-40">
-        <div className="h-full flex flex-col lg:max-w-[50rem] sm:max-w-[40rem] max-w-[24rem] mx-auto text-center">
+        <div className="h-full flex flex-col text-center">
           <div className="flex flex-col items-center">
             <img
               src={logoImgUrl}
@@ -16,27 +16,29 @@ const CarCard = ({ id, title, description, imageUrl, logoImgUrl, webUrl }) => {
               className={`w-14 h-14 object-contain`}
             />
 
-            <h2 className="h2 pt-1 text-primary">{title}</h2>
+            <h2 className="h2 pt-2 md:pt-1 text-primary">{title}</h2>
           </div>
 
-          <p className="sub-text pt-3 lg:pt-2 text-primary">{description}</p>
+          <div className="lg:max-w-[45rem] sm:max-w-[40rem] max-w-[24rem] mx-auto">
+            <p className="sub-text pt-3 lg:pt-2 text-primary">{description}</p>
+          </div>
 
-          <div className="mt-auto flex gap-5 items-center justify-center">
+          <div className="mt-auto flex sm:gap-5 gap-2 items-center sm:justify-center justify-between">
             <Button
               href={webUrl}
-              className="bg-blue-thunder text-sm"
+              className="bg-thunder-blue text-[0.825rem] sm:text-sm max-[378px]:text-xs hover:bg-hover-thunder-blue transition-[background-color] duration-300"
               textButton="text-button !text-primary"
-              px="md:px-10 px-5"
-              py="py-2"
+              px="md:px-10 sm:px-5 px-4"
+              py="py-[10px]"
             >
               Visit Homepage
             </Button>
 
             <Button
-              className="text-button bg-primary text-sm"
+              className="text-button bg-slate-white text-[0.825rem] sm:text-sm max-[378px]:text-xs hover:bg-hover-slate-white transition-[background-color] duration-300"
               textButton="text-button"
-              px="md:px-10 px-5"
-              py="py-2"
+              px="md:px-10 sm:px-5 px-4"
+              py="py-[10px]"
             >
               Demo Drive
             </Button>

@@ -7,7 +7,10 @@ export default {
     extend: {
       colors: {
         primary: "#EEEEEE",
-        "blue-thunder": "#30639c",
+        "thunder-blue": "#30639c",
+        "hover-thunder-blue": "#20446b",
+        "slate-white": "#dbdbdb",
+        "hover-slate-white": "#f7f7f7",
         "slate-zinc": "#393c41",
       },
       fontFamily: {
