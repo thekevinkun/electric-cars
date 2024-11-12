@@ -1,5 +1,5 @@
 const Button = ({ className, textButton, href, onClick, children, px, py }) => {
-  const classes = `button relative inline-flex items-center justify-center rounded-sm
+  const classes = `button relative inline-flex items-center justify-center text-center rounded-sm
   ${px || "px-7"} ${py || "py-1"} ${className || ""}`;
   const spanClasses = `relative z-10 ${textButton || ""}`;
 
