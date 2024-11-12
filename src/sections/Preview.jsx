@@ -42,7 +42,7 @@ const Preview = () => {
 
           <Button
             href="#joinus"
-            className="w-fit mt-7 text-button bg-primary text-sm"
+            className="w-fit mt-7 text-button text-sm bg-slate-white hover:bg-hover-slate-white transition-[background-color] duration-300"
             textButton="text-button"
             px="md:px-5 px-3"
             py="lg:py-3 py-2"

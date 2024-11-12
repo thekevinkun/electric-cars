@@ -95,8 +95,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: audiImage,
     logoImgUrl: audiLogo,
-    webUrl: "www.audiusa.com/us/web/en/models/electric-models.html",
-    demoUrl: "www.youtube.com/watch?v=LYLmV_3uuJ4",
+    webUrl: "https://www.audiusa.com/us/web/en/models/electric-models.html",
+    demoUrl: "https://www.youtube.com/watch?v=LYLmV_3uuJ4",
   },
   {
     id: "bmw",
@@ -105,8 +105,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: bmwImage,
     logoImgUrl: bmwLogo,
-    webUrl: "www.bmwusa.com/all-electric.html",
-    demoUrl: "www.youtube.com/watch?v=OVm4NNqfh7c",
+    webUrl: "https://www.bmwusa.com/all-electric.html",
+    demoUrl: "https://www.youtube.com/watch?v=OVm4NNqfh7c",
   },
   {
     id: "chevrolet",
@@ -115,8 +115,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: chevroletImage,
     logoImgUrl: chevroletLogo,
-    webUrl: "www.chevrolet.com/electric/lineup",
-    demoUrl: "www.youtube.com/watch?v=WAfnRFLEcgA",
+    webUrl: "https://www.chevrolet.com/electric/lineup",
+    demoUrl: "https://www.youtube.com/watch?v=WAfnRFLEcgA",
   },
   {
     id: "ford",
@@ -125,8 +125,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: fordImage,
     logoImgUrl: fordLogo,
-    webUrl: "www.ford.com/electric/",
-    demoUrl: "www.youtube.com/watch?v=0cTUnAwJplw",
+    webUrl: "https://www.ford.com/electric/",
+    demoUrl: "https://www.youtube.com/watch?v=0cTUnAwJplw",
   },
   {
     id: "hyundai",
@@ -135,8 +135,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: hyundaiImage,
     logoImgUrl: hyundaiLogo,
-    webUrl: "www.hyundaiusa.com/us/en/electrified/electric",
-    demoUrl: "www.youtube.com/watch?v=Axf6vUq8f4w",
+    webUrl: "https://www.hyundaiusa.com/us/en/electrified/electric",
+    demoUrl: "https://www.youtube.com/watch?v=Axf6vUq8f4w",
   },
   {
     id: "maserati",
@@ -145,8 +145,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: maseratiImage,
     logoImgUrl: maseratiLogo,
-    webUrl: "www.maserati.com/global/en/models/grecale-folgore",
-    demoUrl: "www.youtube.com/watch?v=18-9j55a0Y4",
+    webUrl: "https://www.maserati.com/global/en/models/grecale-folgore",
+    demoUrl: "https://www.youtube.com/watch?v=18-9j55a0Y4",
   },
   {
     id: "mercedes",
@@ -155,8 +155,9 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: mercedesImage,
     logoImgUrl: mercedesLogo,
-    webUrl: "www.mercedes-benz.com/en/vehicles/mercedes-benz/electric-models/",
-    demoUrl: "",
+    webUrl:
+      "https://www.mercedes-benz.com/en/vehicles/mercedes-benz/electric-models/",
+    demoUrl: "https://www.youtube.com/watch?v=KitQQHm0Eoc",
   },
   {
     id: "porsche",
@@ -165,8 +166,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: porscheImage,
     logoImgUrl: porscheLogo,
-    webUrl: "www.porsche.com/international/aboutporsche/e-performance/",
-    demoUrl: "www.youtube.com/watch?v=KitQQHm0Eoc",
+    webUrl: "https://www.porsche.com/international/aboutporsche/e-performance/",
+    demoUrl: "https://www.youtube.com/watch?v=AI0U9VK1pnk",
   },
   {
     id: "tesla",
@@ -175,8 +176,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: teslaImage,
     logoImgUrl: teslaLogo,
-    webUrl: "www.tesla.com",
-    demoUrl: "www.youtube.com/watch?v=tlThdr3O5Qo",
+    webUrl: "https://www.tesla.com",
+    demoUrl: "https://www.youtube.com/watch?v=tlThdr3O5Qo",
   },
   {
     id: "volkswagen",
@@ -185,8 +186,8 @@ export const cars = [
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imageUrl: volkswagenImage,
     logoImgUrl: volkswagenLogo,
-    webUrl: "www.vw.com/en/electric-vehicles.html",
-    demoUrl: "www.youtube.com/watch?v=epJGqy8Ihlk",
+    webUrl: "https://www.vw.com/en/electric-vehicles.html",
+    demoUrl: "https://www.youtube.com/watch?v=epJGqy8Ihlk",
   },
 ];
 

@@ -95,7 +95,7 @@ const Header = () => {
           className={`${
             (addStyle || openNavigationOnHover) && "!text-black"
           } logo-text flex flex-1 transition-colors duration-700`}
-          href="/"
+          href="/electric-cars"
         >
           Electric Cars
         </a>

@@ -10,7 +10,7 @@ const Button = ({ className, textButton, href, onClick, children, px, py }) => {
   );
 
   const renderLink = () => (
-    <a href={href} className={classes}>
+    <a href={href} target="_blank" className={classes}>
       <span className={spanClasses}>{children}</span>
     </a>
   );
