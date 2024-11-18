@@ -3,7 +3,11 @@ import { bgHero } from "../assets";
 const Hero = () => {
   return (
     <section className="relative h-svh">
-      <img src={bgHero} alt="Hero" className="w-full h-full object-cover" />
+      <img
+        src={bgHero}
+        alt="Hero"
+        className="w-full h-full object-cover object-[30%] md:object-center"
+      />
 
       <div className="overlay"></div>
 

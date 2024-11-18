@@ -8,10 +8,11 @@ const CarCard = ({
   logoImgUrl,
   webUrl,
   demoUrl,
+  className,
 }) => {
   return (
     <section id={id} className="relative w-full h-[100svb]">
-      <img src={imageUrl} alt={id} className="w-full h-full object-cover" />
+      <img src={imageUrl} alt={id} className={className} />
 
       <div className="overlay-content"></div>
 

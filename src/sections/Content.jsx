@@ -14,6 +14,7 @@ const Content = () => {
           logoImgUrl={car.logoImgUrl}
           webUrl={car.webUrl}
           demoUrl={car.demoUrl}
+          className={car.className}
         />
       ))}
     </main>

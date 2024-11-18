@@ -56,7 +56,7 @@ const Header = () => {
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
 
-    if (currentScrollPos === 0) {
+    if (currentScrollPos <= 0) {
       setAddStyle(false);
       return;
     }
