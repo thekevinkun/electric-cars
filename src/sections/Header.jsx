@@ -87,8 +87,8 @@ const Header = () => {
     >
       <div
         className={`${
-          (addStyle || openNavigationOnHover) && "bg-white"
-        } relative z-[70] w-full padding-x py-3
+          (addStyle || openNavigationOnHover) && "bg-white lg:!py-4 !py-3"
+        } relative z-[70] w-full padding-x lg:py-4 py-5
           flex items-center transition-[background-color] duration-700`}
       >
         <a
